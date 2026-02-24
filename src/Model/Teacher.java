@@ -5,12 +5,14 @@ public class Teacher {
     private String TeacherName;
     private String TeacherDept;
     private String Subject;
+    private String YearJoin;
 
-    public Teacher(String TeacherId,String TeacherName, String TeacherDept, String Subject) {
+    public Teacher(String TeacherId,String TeacherName, String TeacherDept, String Subject, String YearJoin) {
         TeacherId = TeacherId;
         TeacherName = TeacherName;
         TeacherDept = TeacherDept;
         Subject=Subject;
+        YearJoin=YearJoin;
     }
 
     public String getTeacherId() {
@@ -25,7 +27,12 @@ public class Teacher {
         return TeacherDept;
     }
 
+    public String getYearJoin() {
+        return YearJoin;
+    }
+
     public String getSubject() {
         return Subject;
     }
+
 }
