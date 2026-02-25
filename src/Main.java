@@ -6,6 +6,5 @@ public class Main{
         DAO_Stud dao=new DAO_Stud();
         Student s=new Student("1","Nandhini","20.07.2006","3rd", "IT","99");
 
-//        dao.viewStudent();
     }
 }
