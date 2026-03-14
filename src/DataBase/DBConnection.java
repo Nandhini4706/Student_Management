@@ -1,5 +1,12 @@
 package DataBase;
 import DataBase.DBConnection;
-public class DBConnection {
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.util.concurrent.Callable;
 
+public class DBConnection {
+public static Connection getConnection() {
+
+    return null;
+}
 }
