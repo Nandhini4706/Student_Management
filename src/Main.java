@@ -13,7 +13,7 @@ public class Main{
         while(true){
             System.out.println("----------------------------------------------Menu------------------------------------------------");
             System.out.println("1.Add Student");
-
+System.out.println("2.View Students");
         }
     }
 }
