@@ -14,6 +14,8 @@ public class Main{
             System.out.println("----------------------------------------------Menu------------------------------------------------");
             System.out.println("1.Add Student");
 System.out.println("2.View Students");
+System.out.println("3.Exir");
         }
+        return null;
     }
 }
