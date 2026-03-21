@@ -19,7 +19,9 @@ System.out.println("3.Exit");
 int num=sc.nextInt();
 switch(num){
     case 1:
-
+         System.out.println("Enter student name: ");
+         String sub=sc.nextLine();
+         System.out.print("Enter Name: ");
 }
         }
 
