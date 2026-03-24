@@ -28,6 +28,7 @@ switch(num){
          System.out.println("Enter Age");
          String age=sc.nextLine();
 
+
 }
         }
 
