@@ -27,7 +27,7 @@ switch(num){
          String phone=sc.nextLine();
          System.out.println("Enter Age");
          String age=sc.nextLine();
-
+         String deot=
 
 }
         }
