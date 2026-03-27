@@ -24,7 +24,7 @@ switch(num){
          String id=sc.nextLine();
          System.out.println("Enter student name: ");
          String sub=sc.nextLine();
-         Systemm.out.println("Enter student academic year: ");
+         System.out.println("Enter student academic year: ");
          String year=sc.nextLine();
          System.out.print("Enter Dept Name: ");
          String dept=sc.nextLine();
