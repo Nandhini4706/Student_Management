@@ -33,6 +33,10 @@ switch(num){
         System.out.println("Enter Phone Number: ");
         String phone=sc.nextLine();
          Student s1=new Student(id,sub,year,dept,mark,phone);
+         dao.addStudent(s1);
+         break;
+
+    case 2:
 
 }
         }
