@@ -3,18 +3,18 @@ package Model;
 public class Student {
     private String StudId;
     private String StudName;
-    private String StudBirth;
     private String StudYear;
     private String StudDept;
     private String StudMark;
+    private String StudPhone;
 
-    public Student(String StudId, String StudName, String StudBirth, String StudYear, String StudDept, String StudMark) {
+    public Student(String StudId, String StudName, String StudYear, String StudDept, String StudMark, String StudPhone) {
         StudId = StudId;
         StudName = StudName;
-         StudBirth = StudBirth;
           StudYear = StudYear;
+        StudDept = StudDept;
            StudMark = StudMark;
-            StudDept = StudDept;
+        StudPhone = StudPhone;
     }
 
     public String getStudId() {
@@ -25,12 +25,11 @@ public class Student {
         return StudName;
     }
 
-    public String getStudBirth() {
-        return StudBirth;
-    }
-
     public String getStudYear() {
         return StudYear;
+    }
+    public String getStudPhone() {
+        return StudPhone;
     }
 
     public String getStudDept() {

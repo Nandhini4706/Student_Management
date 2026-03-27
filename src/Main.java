@@ -17,17 +17,22 @@ public class Main{
 System.out.println("2.View Students");
 System.out.println("3.Exit");
 int num=sc.nextInt();
+sc.nextLine();
 switch(num){
     case 1:
+         System.out.println("Enter Id: ");
+         String id=sc.nextLine();
          System.out.println("Enter student name: ");
          String sub=sc.nextLine();
+         System.out.println("Enter student academic year: ");
+         String year=sc.nextLine();
          System.out.print("Enter Dept Name: ");
          String dept=sc.nextLine();
-         System.out.println("Enter Phone Number: ");
-         String phone=sc.nextLine();
-         System.out.println("Enter Age");
-         String age=sc.nextLine();
-         String deot=
+         System.out.println("Enter student mark: ");
+         String mark=sc.nextLine();
+        System.out.println("Enter Phone Number: ");
+        String phone=sc.nextLine();
+         Student s1=new Student(id,sub,year,dept,mark,phone);
 
 }
         }
