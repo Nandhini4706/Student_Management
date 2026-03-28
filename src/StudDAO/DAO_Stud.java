@@ -11,5 +11,7 @@ public class DAO_Stud {
        public void addStudent(Student students){
            student.add(students);
        }
+        public void viewStudent(){
 
+        }
 }
