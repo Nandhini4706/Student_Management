@@ -15,10 +15,10 @@ public class DAO_Stud {
        public void addStudent(Student students){
            student.add(students);
        }
-        public void viewStudent()throws Exception{
-          String query="SELECT* FROM student";
-          PreparedStatement ps1=con.PreparedStatement(){
-          int yt
+        public void viewStudent()throws Exception {
+            String query = "SELECT* FROM student";
+
+            PreparedStatement ps1 = con.PrepareStatement("Select * from sutudent_db");
 
         }
 }
